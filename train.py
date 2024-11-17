@@ -132,7 +132,7 @@ if __name__ == '__main__':
         pass
     
     print("Starting training...")
-    for epoch in range(1, 5):
+    for epoch in range(0, 5):
         avg_loss, train_accuracy, test_accuracy = train(epoch)
         print(f'Epoch: {epoch}')
         print(f'Average training loss: {avg_loss:.4f}')
